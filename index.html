@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>8-ball</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ask me anything</h1>
-    <input type="text" name="mainInput" id="firstInput">
-    <button id="submitBtn" type="button" onclick="MagicResponse()">Submit</button> 
-    <h2 id="output"></h2>
-    <h3 id="8ball"></h3>
+    <h1>Ask me Anything</h1>
+    <input type="text" id='userQuestion'>
+    <h2 id="questionPrint"></h2>
+    <h3 id="answerPrint"></h3>
+    <input type="button" value="Submit" id='submitInput' onclick="ball()">
 
     <script src="script.js"></script>
-    
 </body>
 </html>
